@@ -12,11 +12,3 @@ I am a Python with 7 years and AI developer with 5 years of experience.<br>With 
 [![](https://visitcount.itsvg.in/api?id=hightop0924&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
-## 📜 Commit History
-
-| Date       | Commit ID | Message                          | Author |
-|------------|-----------|----------------------------------|--------|
-| 2026-02-01 | a1b2c3d   | Initial project setup            | Filip  |
-| 2026-02-02 | d4e5f6g   | Added inference pipeline         | Filip  |
-| 2026-02-03 | h7i8j9k   | Optimized TensorRT integration  | Filip  |
