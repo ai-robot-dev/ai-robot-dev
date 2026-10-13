@@ -1,7 +1,7 @@
-<h1 align="center">AI Engineer · LLMs & Reinforcement Learning</h1>
+<h1 align="center">AI Engineer · LLMs, AI Agents & Reinforcement Learning</h1>
 
 <p align="center">
-  I build AI systems that hold up in production: fine-tuned language models, reinforcement-learning agents, and the Python services that run them.
+  I build AI systems that hold up in production: fine-tuned language models, tool-using AI agents, reinforcement-learning systems, and the Python services that run them.
 </p>
 
 <p align="center">
