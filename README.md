@@ -17,33 +17,11 @@
 I'm an AI engineer with 5+ years in machine learning and 7+ years of professional Python development. I work where research meets engineering: taking large language models and reinforcement-learning methods and turning them into reliable, maintainable software.
 
 - **LLM engineering**: fine-tuning and adapting large language models for domain-specific tasks, and building the applications around them
+- **AI agents**: building tool-using, multi-step agents with retrieval, memory, and observability
 - **Reinforcement learning**: training agents for decision-making, planning, and control
 - **Python backends**: APIs and services that put models in front of real users
-- **End-to-end delivery**: comfortable across TypeScript/React front ends and SQL/NoSQL data stores when a project calls for it
 
 I communicate clearly, work well in cross-functional teams, and keep pace with a field that moves fast.
-
-## Featured project
-
-<table>
-  <tr>
-    <td width="58%" valign="top">
-      <h3><a href="https://github.com/ai-robot-dev/a_star_findpath">Robot Navigation with A*</a></h3>
-      <p>
-        Autonomous goal-reaching for a grid-world robot with a 90° field of view.
-        The robot plans an optimal route with A*, avoids obstacles through grid-based
-        collision checks, and follows the plan using discrete move and rotate actions.
-        Ships with multiple test scenarios and matplotlib visualisations of every run.
-      </p>
-      <p><code>Python</code> <code>A* search</code> <code>Path planning</code> <code>Robotics</code></p>
-    </td>
-    <td width="42%" valign="top">
-      <a href="https://github.com/ai-robot-dev/a_star_findpath">
-        <img src="https://raw.githubusercontent.com/ai-robot-dev/a_star_findpath/master/robot_navigation_final.png" alt="Robot path planned around obstacles to reach its goal" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 ## Tech stack
 
@@ -58,6 +36,47 @@ I communicate clearly, work well in cross-functional teams, and keep pace with a
     </td>
   </tr>
   <tr>
+    <td><b>Agent frameworks</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph" />
+      <img src="https://img.shields.io/badge/LlamaIndex-000000?style=flat-square" alt="LlamaIndex" />
+      <img src="https://img.shields.io/badge/CrewAI-FF5A50?style=flat-square&logo=crewai&logoColor=white" alt="CrewAI" />
+      <img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-412991?style=flat-square" alt="OpenAI Agents SDK" />
+      <img src="https://img.shields.io/badge/Claude%20Agent%20SDK-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Agent SDK" />
+      <img src="https://img.shields.io/badge/Pydantic%20AI-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic AI" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>LLMs & protocols</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic" />
+      <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+      <img src="https://img.shields.io/badge/Model%20Context%20Protocol-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>RAG & vector search</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square" alt="Pinecone" />
+      <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
+      <img src="https://img.shields.io/badge/Chroma-FF6446?style=flat-square" alt="Chroma" />
+      <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Serving & LLMOps</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/vLLM-30A2FF?style=flat-square&logo=vllm&logoColor=white" alt="vLLM" />
+      <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square" alt="LangSmith" />
+      <img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=flat-square" alt="Langfuse" />
+    </td>
+  </tr>
+  <tr>
     <td><b>Languages</b></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -68,22 +87,6 @@ I communicate clearly, work well in cross-functional teams, and keep pace with a
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
       <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Backend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
-      <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
     </td>
   </tr>
   <tr>
